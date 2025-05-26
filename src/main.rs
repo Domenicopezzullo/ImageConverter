@@ -105,5 +105,5 @@ fn main() -> eframe::Result {
     options.centered = true;
     options.viewport = ViewportBuilder::default().with_icon(icon);
     options.hardware_acceleration = HardwareAcceleration::Preferred;
-    run_native("File Converter", options, Box::new(|_cc| Ok(Box::new(Converter::new()))))
+    run_native("Image Converter", options, Box::new(|_cc| Ok(Box::new(Converter::new()))))
 }
