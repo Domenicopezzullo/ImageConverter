@@ -1669,6 +1669,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "image-converter"
+version = "0.1.1"
+dependencies = [
+ "eframe",
+ "egui_extras",
+ "image",
+]
+
+[[package]]
 name = "image-webp"
 version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3214,15 +3223,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "06794f8f6c5c898b3275aebefa6b8a1cb24cd2c6c79397ab15774837a0bc5755"
 dependencies = [
  "winapi-util",
-]
-
-[[package]]
-name = "test-egui"
-version = "0.1.1"
-dependencies = [
- "eframe",
- "egui_extras",
- "image",
 ]
 
 [[package]]
