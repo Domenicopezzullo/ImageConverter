@@ -1,0 +1,15 @@
+[package]
+name = "test-egui"
+version = "0.1.0"
+edition = "2024"
+
+[profile.release]
+lto = "fat"
+panic = "abort"
+codegen-units = 1
+opt-level = 3
+
+[dependencies]
+eframe = "0.31.1"
+egui_extras = "0.31.1"
+image = "0.25.6"
